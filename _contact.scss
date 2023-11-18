@@ -1,0 +1,30 @@
+@use './variables' as *;
+@use './fonts' as *;
+
+
+.contact {
+
+    
+
+    width: 333px;
+    height: 333px;
+    margin-left: 33px;
+    margin-right: auto;
+    padding-top: 100px;
+    margin-top: 50px;
+
+
+
+
+    &__header {
+        padding-top: 100px;
+
+
+
+    }
+
+    &__button {
+
+    }
+    
+}

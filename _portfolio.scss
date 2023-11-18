@@ -1,0 +1,70 @@
+@use './variables.scss' as *;
+@use './fonts.scss' as *;
+
+
+.portfolio {
+    
+    width: 328px;
+    height: 2000px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    &__header {
+       
+        font-family: 'cormorant';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 51.2px;
+        width: 183px;
+        height: 20px;
+        margin-left: 0px;
+        margin-right: auto;
+
+
+    }
+
+    &__project {
+        /* Styles for the project container */
+        width: 325px;
+        height: 328px;
+        margin-left: 0px;
+        margin-right: auto;
+        margin-top: 100px;
+       
+       
+        
+    
+        &-image {
+          width: 322px;
+          height: 256px;
+          margin-left: 0px;
+          margin-right: auto;
+          
+        }
+    
+        &-header {
+          width: 324px;
+          height: 51px;
+          margin-left: 0px;
+          margin-right: auto;
+          font-family: 'cormorant';
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 51.2px;
+        
+        }
+
+        &-button {
+            
+
+            
+       
+        }
+        
+          
+      }
+    
+}

@@ -1,0 +1,45 @@
+@use './variables.scss' as *;
+@use './fonts.scss' as *;
+
+
+.about {
+
+    width: 329.46px;
+    height: 900px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 80px;
+
+
+
+    &__header{
+
+        font-family: 'cormorant';
+        font-weight: 700px;
+        font-size: 32px;
+        line-height: 51.2px;
+
+    }
+
+    &__img {
+
+        width: 329.46px;
+        height: 401.4px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    &__p {
+margin-top: 80px;
+width:329.46px;
+height: 546px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+
+
+    }
+}
