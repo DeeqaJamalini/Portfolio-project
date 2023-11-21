@@ -77,12 +77,10 @@
 
 .portfolio {
   width: 328px;
-  height: 2000px;
+  height: 1500px;
   margin-top: 20px;
   margin-left: 30px;
   margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 .portfolio__header {
   font-family: "cormorant";
@@ -119,13 +117,22 @@
   line-height: 51.2px;
 }
 .contact {
+  font-family: "cormorant";
+  font-size: 80px;
   width: 333px;
   height: 333px;
   margin-left: 33px;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 10px;
   margin-top: 50px;
 }
-.contact__header {
-  padding-top: 100px;
+.contact__button {
+  height: 79px;
+  width: 272px;
+  margin-right: 29px;
+  margin-left: auto;
+}
+
+.container {
+  display: grid;
 }/*# sourceMappingURL=main.css.map */

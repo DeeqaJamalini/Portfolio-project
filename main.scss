@@ -6,6 +6,11 @@
 @use './skills';
 @use './portfolio';
 @use './contact';
+@use './footer';
+
+.container {
+    display: grid;
+}
 
 
 

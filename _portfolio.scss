@@ -1,16 +1,15 @@
-@use './variables.scss' as *;
-@use './fonts.scss' as *;
+
 
 
 .portfolio {
     
     width: 328px;
-    height: 2000px;
+    height: 1500px;
     margin-top: 20px;
     margin-left: 30px;
     margin-right: auto;
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
     
     &__header {
        
