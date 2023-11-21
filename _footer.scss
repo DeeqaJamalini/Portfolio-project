@@ -1,7 +1,29 @@
 .footer {
+
+    height: 114px;
+    width: 390px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &__images {
+
+
+        margin: 0 10px;
+
+        
+    
+        
+    }
+
+
+
+    
     
     
 }
-
-
-
