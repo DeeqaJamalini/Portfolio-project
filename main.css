@@ -26,6 +26,7 @@
     grid-template-rows: 1fr;
   }
   .header__nav {
+    margin-top: 1vh;
     display: block;
     text-decoration: none;
     color: black;
@@ -33,6 +34,11 @@
   .header__nav li {
     display: inline;
     margin: 32px;
+  }
+  .header__nav li:hover {
+    transition: font-size 0.3s;
+  }
+  .header__nav li a {
     text-decoration: none;
     color: black;
   }
@@ -85,7 +91,7 @@
 .about {
   width: 329.46px;
   height: 900px;
-  margin-left: 15vw;
+  margin-left: 10vw;
   margin-right: auto;
   margin-top: 80px;
 }
@@ -99,7 +105,7 @@
   width: 329.46px;
   height: 401.4px;
   margin-left: auto;
-  margin-right: 40vh;
+  margin-right: 50vh;
 }
 .about__p {
   margin-top: 80px;
@@ -117,19 +123,22 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 3fr;
-    height: unset;
-    height: 50vh;
+    height: 60vh;
+    margin-left: 25vh;
   }
   .about__header {
     grid-row: 1/2;
     grid-column: 1/2;
     width: unset;
-    margin-left: 15px;
   }
   .about__img {
     grid-row: 1/3;
     grid-column: 2/3;
     margin-right: 40px;
+    width: 80%;
+    height: 30vh;
+    margin-top: 50px;
+    margin-right: 15vw;
   }
   .about__p {
     grid-row: 1/3;
@@ -148,11 +157,13 @@
     grid-template-rows: 1fr 1fr;
     font-family: "cormorant";
     width: 90%;
+    min-height: 60vh;
   }
   .skills__header {
     grid-row: 1/2;
     grid-column: 1/2;
-    text-align: center;
+    font-size: 2em;
+    margin-left: 25vh;
   }
   .skills__p {
     grid-row: 1/2;
@@ -182,7 +193,7 @@
   width: 100%;
   height: 1500px;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 10vw;
   margin-right: auto;
 }
 .portfolio__header {
@@ -192,11 +203,8 @@
   line-height: 50px;
   width: 180px;
   height: 20px;
-  margin-left: 0px;
-  margin-right: auto;
 }
 .portfolio__project {
-  /* Styles for the project container */
   width: 325px;
   height: 328px;
   margin-left: 0px;
@@ -234,6 +242,9 @@
   grid-row: 2/3;
   grid-column: 2/3;
 }
+.portfolio__project-button--eye:hover {
+  transform: scale(1.2);
+}
 .portfolio__project-button--look {
   border: none;
   background: none;
@@ -241,6 +252,9 @@
   padding: 0;
   grid-row: 2/3;
   grid-column: 3/4;
+}
+.portfolio__project-button--look:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (min-width: 1024px) {
@@ -258,13 +272,11 @@
     grid-template-rows: 1fr 5fr 5fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
-    margin-left: 7vw;
   }
   .portfolio__header {
     grid-row: 1/2;
     grid-column: 1/4;
-    margin-left: 40vw;
-    margin-right: auto;
+    margin-left: 5vh;
   }
 }
 .contact {

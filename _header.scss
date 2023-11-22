@@ -28,22 +28,24 @@
     grid-template-rows: 1fr;
 
     &__nav {
-     
-   display: block;
-   text-decoration: none;
-         color: black;
+      margin-top: 1vh;
+      display: block;
+      text-decoration: none;
+      color: black;
 
-  
-      
-        li {
-          display: inline;
-          margin: 32px;
-         text-decoration: none;
-         color: black;
-
+      li {
+        display: inline;
+        margin: 32px;
+        &:hover {
+          transition: font-size 0.3s;
+          
         }
-      
 
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
     }
   }
 }
