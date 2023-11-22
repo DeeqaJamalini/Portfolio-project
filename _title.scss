@@ -1,41 +1,50 @@
-
-
-
 .title {
+  width: 344px;
+  height: 542px;
+  // padding-top: 157px;
+  margin-left: 30px;
+  margin-right: auto;
+  margin-top: 137px;
 
+  &__header {
+    font-family: "cormorant";
     width: 344px;
-    height: 542px;
+    height: 288px;
     // padding-top: 157px;
-    margin-left: 30px;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 137px;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+  }
 
+  &__p {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.6px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .title {
+    display: grid;
+    grid-template-columns: 1fr; /* Change to a single column for tablets */
+    grid-template-rows: auto auto; /* Set rows to 'auto' for responsive height */
 
     &__header {
-
-        font-family: 'cormorant';
-        width: 344px;
-        height: 288px;
-        // padding-top: 157px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 80px;
-        font-weight: 400;
-        line-height: 96px;
-
-
-
+      grid-row: 1 / 2;
+      grid-column: 1 / 2;
+      width: 100%; /* Adjust width for responsiveness */
+      margin-left: 300px;
     }
 
     &__p {
-
-        font-family: 'inter';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26.6px;
-
-
-
-
+      grid-row: 2 / 3;
+      grid-column: 1 / 2;
+      width: 100%; /* Adjust width for responsiveness */
+      margin-left: 20px; /* Remove specific left margin */
     }
+  }
 }

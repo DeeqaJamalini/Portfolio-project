@@ -13,9 +13,9 @@
       <!-- hide nav for mobile version -->
       <nav class="header__nav">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="header__nav--li"><a href="#">About</a></li>
+          <li class="header__nav--li"><a href="#">Portfolio</a></li>
+          <li class="header__nav--li"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -32,7 +32,7 @@
 
     <section class="about">
       <h2 class="about__header">ABOUT</h2>
-      <img class="about__img" src="images/catt.png" />
+      <img class="about__img" src="images/catt.png "My image"/>
       <p class="about__p">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ab!
         Ipsa, nobis saepe. Ipsa nobis fuga nihil nostrum, facere quod unde
@@ -47,15 +47,19 @@
 
     <section class="skills">
       <h2 class="skills__header">SKILLS</h2>
-      <!-- hide the p for desktop version -->
-      <p class="skills__p">These are my skills</p>
-      <img class="skills_img" src="images/Skill Icons.png" />
+      <!-- hide for mobile version -->
+      <p class="skills__p">
+        Egestas dictumst enim dui ante nisl risus commodo. Pellentesque
+        dignissim praesent purus in neque erat et. Cras donec ut orci eget neque
+        bibendum cras. Vitae, ultricies arcu pretium duis.
+      </p>
+      <img class="skills__img" src="images/Skill Icons (3).png" />
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id='portfolio'>
       <h2 class="portfolio__header">PORTFOLIO</h2>
 
-      <div class="portfolio__project">
+      <div class="portfolio__project" id = 'portfolio1'>
         <img
           class="portfolio__project-image"
           src="images/Solid_black.svg.png"
@@ -72,7 +76,7 @@
         </button>
       </div>
 
-      <div class="portfolio__project">
+      <div class="portfolio__project portfolio2" id = 'portfolio2'>
         <img
           class="portfolio__project-image"
           src="images/Solid_black.svg.png"
@@ -90,7 +94,7 @@
         </button>
       </div>
 
-      <div class="portfolio__project">
+      <div class="portfolio__project portfolio3" id = 'portfolio3'>
         <img
           class="portfolio__project-image"
           src="images/Solid_black.svg.png"
@@ -108,6 +112,57 @@
           <img src="images/look.png" />
         </button>
       </div>
+
+      <div class="portfolio__project" id = 'portfolio4'>
+        <img
+          class="portfolio__project-image"
+          src="images/Solid_black.svg.png"
+          alt="project 4 picture" />
+
+        <h3 class="portfolio__project-header" >PROJECT 4</h3>
+        <button
+          class="portfolio__project-button portfolio__project-button--eye">
+          <img src="images/eye.jpg" />
+        </button>
+        <button
+          class="portfolio__project-button portfolio__project-button--look">
+          <img src="images/look.png" />
+        </button>
+      </div>
+
+      <div class="portfolio__project" id= 'portfolio5'>
+        <img
+          class="portfolio__project-image"
+          src="images/Solid_black.svg.png"
+          alt="project 5 picture" />
+
+        <h3 class="portfolio__project-header">PROJECT 5</h3>
+        <button
+          class="portfolio__project-button portfolio__project-button--eye">
+          <img src="images/eye.jpg" />
+        </button>
+        <button
+          class="portfolio__project-button portfolio__project-button--look">
+          <img src="images/look.png" />
+        </button>
+      </div>
+
+      <div class="portfolio__project" id= 'portfolio6'>
+        <img
+          class="portfolio__project-image"
+          src="images/Solid_black.svg.png"
+          alt="project 6 picture" />
+
+        <h3 class="portfolio__project-header">PROJECT 6</h3>
+        <button
+          class="portfolio__project-button portfolio__project-button--eye">
+          <img src="images/eye.jpg" />
+        </button>
+        <button
+          class="portfolio__project-button portfolio__project-button--look">
+          <img src="images/look.png" />
+        </button>
+      </div>
     </section>
 
     <section class="contact">
@@ -115,24 +170,17 @@
       <button class="contact__button">CONTACT</button>
     </section>
 
-    <footer class= "footer">
-
+    <footer class="footer">
       <a href="#" class="footer__images">
-        <img src="images/linkedin.png" alt="">
+        <img src="images/linkedin.png" alt="linkedin logo" />
       </a>
       <a href="#" class="footer__images">
-        <img src="images/github.png">
-
+        <img src="images/github.png" alt="github logo" />
       </a>
 
       <a href="#" class="footer__images">
-        <img src="images/cv.png">
+        <img src="images/cv.png" alt="CV logo" />
       </a>
-
-
     </footer>
-    
   </body>
- 
-  
 </html>

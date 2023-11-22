@@ -1,17 +1,9 @@
-@use './variables.scss' as *;
-@use './fonts.scss' as *;
-@use './header.scss';
-@use './title';
-@use './about';
-@use './skills';
-@use './portfolio';
-@use './contact';
-@use './footer';
-
-
-
-
-// .body {
-//     display: flex;
-//     flex-direction: column;
-// }
+@use "./variables.scss" as *;
+@use "./fonts.scss" as *;
+@use "./header.scss";
+@use "./title";
+@use "./about";
+@use "./skills";
+@use "./portfolio";
+@use "./contact";
+@use "./footer";
