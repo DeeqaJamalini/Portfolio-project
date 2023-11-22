@@ -7,3 +7,7 @@
 @use "./portfolio";
 @use "./contact";
 @use "./footer";
+
+body {
+    overflow-x: hidden;
+}

@@ -1,12 +1,12 @@
 .footer {
   height: 114px;
-  width: 390px;
+  width: 100%;
   text-align: center;
   color: white;
   background-color: black;
   min-height: 20vh;
   display: flex;
-  justify-content: center;
+   justify-content: center;
   align-items: center;
 
   &__images {
@@ -22,5 +22,7 @@
   .footer {
 
   width: 100%;
+
+
 }
 }
