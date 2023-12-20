@@ -14,167 +14,181 @@
       <nav class="header__nav">
         <ul>
           <li class="header__nav--li1">
-            <a class="header__nav--a" href="#">About</a>
+            <a class="header__nav--a" href="#about">About</a>
           </li>
           <li class="header__nav--li2">
-            <a class="header__nav--a" href="#">Portfolio</a>
+            <a class="header__nav--a" href="#portfolio">Portfolio</a>
           </li>
           <li class="header__nav--li3">
-            <a class="header__nav--a" href="#">Contact</a>
+            <a class="header__nav--a" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <section class="title">
-      <h1 class="title__header">Junior Software Developer</h1>
+      <h1 class="title__header">Junior Software Engineer</h1>
       <p class="title__p">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magnam
+        <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magnam
         deserunt asperiores, assumenda ullam inventore corrupti cum, soluta nam
         non dolor neque error doloremque. Tempore ratione exercitationem dicta
-        reprehenderit ducimus?
+        reprehenderit ducimus? -->
       </p>
     </section>
-
-    <section class="about">
-      <h2 class="about__header">ABOUT</h2>
-      <img class="about__img" src="images/catt.png "My image"/>
-      <p class="about__p">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ab!
+    <a id="about">
+      <section class="about">
+        <h2 class="about__header">ABOUT</h2>
+        <img class="about__img" src="./images/wall_01-1280x720.webp" />
+        <p class="about__p">
+          I am currently completing a full-stack engineering course at nology
+          <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ab!
         Ipsa, nobis saepe. Ipsa nobis fuga nihil nostrum, facere quod unde
-        quisquam possimus cum harum iure incidunt, eum maxime suscipit.
-        <br /><br />
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam magni
+        quisquam possimus cum harum iure incidunt, eum maxime suscipit. -->
+          <br /><br />
+          <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam magni
         recusandae, asperiores obcaecati, reprehenderit eligendi rem expedita
         autem ea odit, doloremque maxime veniam quis neque nesciunt id et
-        officia molestias?
-      </p>
-    </section>
+        officia molestias? -->
+        </p>
+      </section>
+    </a>
 
     <section class="skills">
       <h2 class="skills__header">SKILLS</h2>
       <!-- hide for mobile version -->
       <p class="skills__p">
-        Egestas dictumst enim dui ante nisl risus commodo. Pellentesque
+        <!-- Egestas dictumst enim dui ante nisl risus commodo. Pellentesque
         dignissim praesent purus in neque erat et. Cras donec ut orci eget neque
-        bibendum cras. Vitae, ultricies arcu pretium duis.
+        bibendum cras. Vitae, ultricies arcu pretium duis. -->
       </p>
       <img class="skills__img" src="images/Skill Icons (3).png" />
     </section>
 
-    <section class="portfolio" id="portfolio">
-      <h2 class="portfolio__header">PORTFOLIO</h2>
+    <a id="portfolio">
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__header">PORTFOLIO</h2>
 
-      <div class="portfolio__project" id="portfolio1">
-        <img
-          class="portfolio__project-image"
-          src="images/Solid_black.svg.png"
-          alt="project 1 picture" />
+        <div class="portfolio__project" id="portfolio1">
+          <img
+            class="portfolio__project-image"
+            src="images/calculator-project.png"
+            alt="project 1 picture"
+            href="" />
 
-        <h3 class="portfolio__project-header">PROJECT 1</h3>
-        <button
-          class="portfolio__project-button portfolio__project-button--eye">
-          <img src="images/eye.jpg" />
-        </button>
-        <button
-          class="portfolio__project-button portfolio__project-button--look">
-          <img src="images/look.png" />
-        </button>
-      </div>
+          <h3 class="portfolio__project-header">Calculator Project</h3>
+          <button
+            class="portfolio__project-button portfolio__project-button--eye"
+            onclick="goToWebPage('https://deeqajamalini.github.io/calculator-project/')">
+            <img src="images/eye.jpg" />
+          </button>
 
-      <div class="portfolio__project portfolio2" id="portfolio2">
-        <img
-          class="portfolio__project-image"
-          src="images/Solid_black.svg.png"
-          alt="project 2 picture" />
+          <button
+            class="portfolio__project-button portfolio__project-button--look"
+            onclick="goToWebPage('https://github.com/DeeqaJamalini/calculator-project')">
+            <img src="images/look.png" />
+          </button>
+        </div>
 
-        <h3 class="portfolio__project-header">PROJECT 2</h3>
+        <div class="portfolio__project portfolio2" id="portfolio2">
+          <img
+            class="portfolio__project-image"
+            src="images/huebubble-screenshot.png"
+            alt="project 2 picture" />
 
-        <button
-          class="portfolio__project-button portfolio__project-button--eye">
-          <img src="images/eye.jpg" />
-        </button>
-        <button
-          class="portfolio__project-button portfolio__project-button--look">
-          <img src="images/look.png" />
-        </button>
-      </div>
+          <h3 class="portfolio__project-header">HueBubble Game Project</h3>
 
-      <div class="portfolio__project portfolio3" id="portfolio3">
-        <img
-          class="portfolio__project-image"
-          src="images/Solid_black.svg.png"
-          alt="project 3 picture" />
+          <button
+            class="portfolio__project-button portfolio__project-button--eye"
+            onclick="goToWebPage('https://deeqajamalini.github.io/HueBubble/')">
+            <img src="images/eye.jpg" />
+          </button>
+          <button
+            class="portfolio__project-button portfolio__project-button--look"
+            onclick="goToWebPage('https://github.com/DeeqaJamalini/HueBubble')">
+            <img src="images/look.png" />
+          </button>
+        </div>
 
-        <h3 class="portfolio__project-header">PROJECT 3</h3>
+        <div class="portfolio__project portfolio3" id="portfolio3">
+          <img
+            class="portfolio__project-image"
+            src="images/ticket-tracker-screenshot.png"
+            alt="project 3 picture" />
 
-        <button
-          class="portfolio__project-button portfolio__project-button--eye">
-          <img src="images/eye.jpg" />
-        </button>
+          <h3 class="portfolio__project-header">Ticket tracker Project</h3>
 
-        <button
-          class="portfolio__project-button portfolio__project-button--look">
-          <img src="images/look.png" />
-        </button>
-      </div>
+          <button
+            class="portfolio__project-button portfolio__project-button--eye"
+            onclick="goToWebPage('https://deeqajamalini.github.io/Ticket-tracker-Project/')">
+            <img src="images/eye.jpg" />
+          </button>
 
-      <div class="portfolio__project" id="portfolio4">
-        <img
-          class="portfolio__project-image"
-          src="images/Solid_black.svg.png"
-          alt="project 4 picture" />
+          <button
+            class="portfolio__project-button portfolio__project-button--look"
+            onclick="goToWebPage('https://github.com/DeeqaJamalini/Ticket-tracker-Project')">
+            <img src="images/look.png" />
+          </button>
+        </div>
 
-        <h3 class="portfolio__project-header">PROJECT 4</h3>
-        <button
-          class="portfolio__project-button portfolio__project-button--eye">
-          <img src="images/eye.jpg" />
-        </button>
-        <button
-          class="portfolio__project-button portfolio__project-button--look">
-          <img src="images/look.png" />
-        </button>
-      </div>
+        <div class="portfolio__project" id="portfolio4">
+          <img
+            class="portfolio__project-image"
+            src="images/Solid_black.svg.png"
+            alt="project 4 picture" />
 
-      <div class="portfolio__project" id="portfolio5">
-        <img
-          class="portfolio__project-image"
-          src="images/Solid_black.svg.png"
-          alt="project 5 picture" />
+          <h3 class="portfolio__project-header">PROJECT 4</h3>
+          <button
+            class="portfolio__project-button portfolio__project-button--eye">
+            <img src="images/eye.jpg" />
+          </button>
+          <button
+            class="portfolio__project-button portfolio__project-button--look">
+            <img src="images/look.png" />
+          </button>
+        </div>
 
-        <h3 class="portfolio__project-header">PROJECT 5</h3>
-        <button
-          class="portfolio__project-button portfolio__project-button--eye">
-          <img src="images/eye.jpg" />
-        </button>
-        <button
-          class="portfolio__project-button portfolio__project-button--look">
-          <img src="images/look.png" />
-        </button>
-      </div>
+        <div class="portfolio__project" id="portfolio5">
+          <img
+            class="portfolio__project-image"
+            src="images/Solid_black.svg.png"
+            alt="project 5 picture" />
 
-      <div class="portfolio__project" id="portfolio6">
-        <img
-          class="portfolio__project-image"
-          src="images/Solid_black.svg.png"
-          alt="project 6 picture" />
+          <h3 class="portfolio__project-header">PROJECT 5</h3>
+          <button
+            class="portfolio__project-button portfolio__project-button--eye">
+            <img src="images/eye.jpg" />
+          </button>
+          <button
+            class="portfolio__project-button portfolio__project-button--look">
+            <img src="images/look.png" />
+          </button>
+        </div>
 
-        <h3 class="portfolio__project-header">PROJECT 6</h3>
-        <button
-          class="portfolio__project-button portfolio__project-button--eye">
-          <img src="images/eye.jpg" />
-        </button>
-        <button
-          class="portfolio__project-button portfolio__project-button--look">
-          <img src="images/look.png" />
-        </button>
-      </div>
-    </section>
+        <div class="portfolio__project" id="portfolio6">
+          <img
+            class="portfolio__project-image"
+            src="images/Solid_black.svg.png"
+            alt="project 6 picture" />
 
-    <section class="contact">
-      <h2 class="contact__header">Get in touch.</h2>
-      <button class="contact__button">CONTACT</button>
-    </section>
+          <h3 class="portfolio__project-header">PROJECT 6</h3>
+          <button
+            class="portfolio__project-button portfolio__project-button--eye">
+            <img src="images/eye.jpg" />
+          </button>
+          <button
+            class="portfolio__project-button portfolio__project-button--look">
+            <img src="images/look.png" />
+          </button>
+        </div>
+      </section>
+    </a>
+
+    <a id="contact">
+      <section class="contact">
+        <h2 class="contact__header">Get in touch.</h2>
+        <button class="contact__button">CONTACT</button>
+      </section>
+    </a>
 
     <footer class="footer">
       <a href="#" class="footer__images">
@@ -188,5 +202,11 @@
         <img src="images/cv.png" alt="CV logo" />
       </a>
     </footer>
+    <script>
+      const goToWebPage = (url) => {
+        // Open the desired web page in a new tab
+        window.open(url, "_blank");
+      };
+    </script>
   </body>
 </html>
